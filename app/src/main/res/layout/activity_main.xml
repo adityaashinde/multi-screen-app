@@ -8,37 +8,36 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="67dp"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="20dp"
         android:layout_marginTop="10dp"
-        android:text="Wel-Come to HashTag Cafe" />
+        android:gravity="center"
+        android:text="Wel-Come to HashTag Cafe"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/eT1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:layout_margin="15dp"
+        android:ems="10"
         android:hint="Enter Order One"
-         />
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/eT2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:layout_margin="15dp"
-        android:hint="Enter Order Two" />
+        android:ems="10"
+        android:hint="Enter Order Two"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/eT3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -47,7 +46,7 @@
         android:hint="Enter Order Three" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/eT4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
